@@ -51,7 +51,7 @@
 
 ## Acceptance Scenario
 
-```plaintext
+```gherkin
 Feature: Menghitung Luas Persegi Panjang
 
   Scenario: Menghitung luas persegi panjang dengan lebar dan panjang yang valid
