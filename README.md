@@ -8,8 +8,6 @@
 - 9012682327009	- Nurul Hijriani
 - 9012682327011	- Dite Geovani
 
----
-
 ## Cara Melakukan Testing:
 
 1. **Clone Repository:**
@@ -51,7 +49,6 @@
      ```
    - Aplikasi akan berjalan di localhost:3000 secara default
 
----
 ## Acceptance Scenario
 
 ```plaintext
@@ -80,7 +77,6 @@ Feature: Menghitung Luas Persegi Panjang
 ## Screenshoot Hasil Test:
 1. **Stage 1:**
 ![Stage 1](test_outcomes/stage%201.png)
-
 
 2. **Stage 2:**
 ![Stage 2](test_outcomes/stage%202.png)
