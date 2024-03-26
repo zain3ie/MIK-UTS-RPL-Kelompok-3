@@ -1,5 +1,5 @@
-function calculateArea(width, height) {
-
+function calculateArea(width, length) {
+  return width * length;
 }
 
 module.exports = { calculateArea };
