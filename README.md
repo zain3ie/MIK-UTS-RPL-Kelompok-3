@@ -74,12 +74,29 @@ Feature: Menghitung Luas Persegi Panjang
 
 ```
 
-## Screenshoot Hasil Test:
-1. **Stage 1:**
+## Unit Testing:
+
+  [Source code](https://github.com/zain3ie/MIK-UTS-RPL-Kelompok-3/blob/main/test/rectangle.test.js)
+
+## Programing:
+
+1. **Stage 1 (**[Source code](https://github.com/zain3ie/MIK-UTS-RPL-Kelompok-3/blob/stage_1/functions/rectangle.js)**):**
+- Hasil test
 ![Stage 1](test_outcomes/stage%201.png)
 
-2. **Stage 2:**
+2. **Stage 2 (**[Source code](https://github.com/zain3ie/MIK-UTS-RPL-Kelompok-3/blob/stage_2/functions/rectangle.js)**):**
+- Hasil test
 ![Stage 2](test_outcomes/stage%202.png)
 
-3. **Stage 3:**
+3. **Stage 3 (**[Source code](https://github.com/zain3ie/MIK-UTS-RPL-Kelompok-3/blob/stage_3/functions/rectangle.js)**):**
+- Hasil test
 ![Stage 3](test_outcomes/stage%203.png)
+
+4. **Refactoring 1 (**[Source code](https://github.com/zain3ie/MIK-UTS-RPL-Kelompok-3/blob/refactoring_1/functions/rectangle.js)**)**
+
+5. **Refactoring 2 (**[Source code](https://github.com/zain3ie/MIK-UTS-RPL-Kelompok-3/blob/refactoring_2/functions/rectangle.js)**)**
+
+## Video Pembuatan:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nGxamlFcR0c" frameborder="0" allowfullscreen></iframe>
+<!-- https://youtu.be/nGxamlFcR0c -->
