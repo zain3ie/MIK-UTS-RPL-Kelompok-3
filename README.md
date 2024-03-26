@@ -1,69 +1,89 @@
-# LuasPersegiPanjang
+# Luas Persegi Panjang
 
-## Build Setup
+## UTS RPL Kelompok 3
+- 9012682327001 -	Gabriel Mediose A.S
+- 9012682327002	- Zainal Umari
+- 9012682327007	- Agus Andreansyah
+- 9012682327008	- Arif Athallah
+- 9012682327009	- Nurul Hijriani
+- 9012682327011	- Dite Geovani
 
-```bash
-# install dependencies
-$ yarn install
+---
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+## Cara Melakukan Testing:
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+1. **Clone Repository:**
+   - Jalankan perintah berikut:
+     ```bash
+     git clone https://github.com/zain3ie/MIK-UTS-RPL-Kelompok-3.git
+     ```
 
-# generate static project
-$ yarn generate
+2. **Instal Dependensi:**
+   - Install dependensi yang diperlukan:
+     ```bash
+     npm install
+     ```
+     atau
+     ```bash
+     yarn install
+     ```
+
+3. **Menjalankan Unit Test:**
+   - Untuk menjalankan unit test, gunakan perintah:
+     ```bash
+     npm test
+     ```
+     atau
+     ```bash
+     yarn test
+     ```
+
+## Cara Menjalankan Aplikasi:
+
+1. **Menjalankan Aplikasi:**
+   - Jalankan aplikasi dengan perintah:
+     ```bash
+     npm start
+     ```
+     atau
+     ```bash
+     yarn start
+     ```
+   - Aplikasi akan berjalan di localhost:3000 secara default
+
+---
+## Acceptance Scenario
+
+```plaintext
+Feature: Menghitung Luas Persegi Panjang
+
+  Scenario: Menghitung luas persegi panjang dengan lebar dan panjang yang valid
+    Given pengguna membuka aplikasi kalkulator
+    When pengguna memasukkan nilai lebar "5" dan nilai tinggi "10"
+    And pengguna menekan tombol hitung
+    Then aplikasi menampilkan hasil luas "50"
+
+  Scenario: Menghitung luas persegi panjang dengan lebar yang tidak valid
+    Given pengguna membuka aplikasi kalkulator
+    When pengguna memasukkan nilai lebar "a" dan nilai panjang "10"
+    And pengguna menekan tombol hitung
+    Then aplikasi menampilkan pesan kesalahan "Silakan masukkan nilai lebar yang valid"
+
+  Scenario: Menghitung luas persegi panjang dengan panjang yang tidak valid
+    Given pengguna membuka aplikasi kalkulator
+    When pengguna memasukkan nilai lebar "5" dan nilai panjang "-10"
+    And pengguna menekan tombol hitung
+    Then aplikasi menampilkan pesan kesalahan "Silakan masukkan nilai panjang yang valid"
+
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
-
-## Special Directories
-
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+## Screenshoot Hasil Test:
+1. **Stage 1:**
+![Stage 1](test_outcomes/stage%201.png)
 
 
-### `pages`
+2. **Stage 2:**
+![Stage 2](test_outcomes/stage%202.png)
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+3. **Stage 3:**
+![Stage 3](test_outcomes/stage%203.png)
