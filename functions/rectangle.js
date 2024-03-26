@@ -4,25 +4,15 @@ function calculateArea(width, length) {
 }
 
 function inputValidation(width, length) {
-  let errorMessage = '';
+  let invalidBoth = 'Silakan masukkan nilai lebar dan panjang yang valid';
+  let invalidWidth = 'Silakan masukkan nilai lebar yang valid';
+  let invalidLength = 'Silakan masukkan nilai panjang yang valid';
 
   if (isNaN(width) || isNaN(length)) {
-    if (isNaN(width)) {
-      errorMessage = 'Silakan masukkan nilai lebar yang valid';
-    } else {
-      errorMessage = 'Silakan masukkan nilai panjang yang valid';
-    }
+    return isNaN(width) && isNaN(length) ? invalidBoth : isNaN(width) ? invalidWidth : invalidLength;
   } else if (width <= 0 || length <= 0) {
-    if (width <= 0 && length <= 0) {
-      errorMessage = 'Masukkan terlebih dahulu nilai lebar dan panjang yang valid';
-    } else if (width <= 0) {
-      errorMessage = 'Silakan masukkan nilai lebar yang valid';
-    } else {
-      errorMessage = 'Silakan masukkan nilai panjang yang valid';
-    }
+    return width <= 0 && length <= 0 ? invalidBoth : width <= 0 ? invalidWidth : invalidLength;
   }
-
-  return errorMessage;
 }
 
 module.exports = { calculateArea, inputValidation };
