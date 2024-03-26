@@ -1,6 +1,6 @@
 # Luas Persegi Panjang
 
-## UTS RPL Kelompok 3
+## Project UTS RPL Kelompok 3
 - 9012682327001 -	Gabriel Mediose A.S
 - 9012682327002	- Zainal Umari
 - 9012682327007	- Agus Andreansyah
@@ -96,7 +96,6 @@ Feature: Menghitung Luas Persegi Panjang
 
 5. **Refactoring 2 (**[Source code](https://github.com/zain3ie/MIK-UTS-RPL-Kelompok-3/blob/refactoring_2/functions/rectangle.js)**)**
 
-## Video Pembuatan:
+## Video Pembuatan Project:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nGxamlFcR0c" frameborder="0" allowfullscreen></iframe>
-<!-- https://youtu.be/nGxamlFcR0c -->
+[![Video YouTube](https://img.youtube.com/vi/nGxamlFcR0c/0.jpg)](https://www.youtube.com/watch?v=nGxamlFcR0c)
